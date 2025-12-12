@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Matthew Kothe — Cybersecurity Notes</title>
+    <link>https://yourdomain.tld/</link>
+    <description>Study notes and blog</description>
+    <item>
+      <title>Welcome — Masters + OSCP notes</title>
+      <link>https://yourdomain.tld/posts/2025-12-12-welcome.html</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <description>First post: purpose and publishing rules.</description>
+    </item>
+  </channel>
+</rss>

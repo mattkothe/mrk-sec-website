@@ -1,0 +1,3 @@
+Contact: mailto:security@yourdomain.tld
+Preferred-Languages: en
+Acknowledgements: https://yourdomain.tld/hall-of-fame

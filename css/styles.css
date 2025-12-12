@@ -1,0 +1,27 @@
+:root{
+  --max-width:900px;
+  --accent:#1a73e8;
+  --muted:#6b7280;
+  --bg:#fff;
+  --text:#111827;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;background:var(--bg);color:var(--text);margin:0}
+.wrap{max-width:var(--max-width);margin:0 auto;padding:1.25rem}
+.site-header{border-bottom:1px solid #eee;background:#fafafa}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between}
+.site-header h1{font-size:1.25rem;margin:0}
+.site-header a{color:var(--accent);text-decoration:none}
+nav a{margin-left:1rem;color:var(--muted);text-decoration:none}
+.intro p{margin:1rem 0;padding:0}
+.post-list{list-style:none;padding-left:0}
+.post-list li{padding:.5rem 0;border-bottom:1px solid #f1f1f1}
+.post-list time{color:var(--muted);font-size:.95rem;margin-right:.5rem}
+.small{color:var(--muted);font-size:.9rem}
+.site-footer{border-top:1px solid #eee;padding:.75rem 0;margin-top:2rem;color:var(--muted)}
+article h1{margin-top:0}
+.article-meta{color:var(--muted);font-size:.95rem;margin-bottom:1rem}
+pre{background:#111;color:#eee;padding:1rem;overflow:auto;border-radius:4px}
+code{background:#f4f4f4;padding:.12rem .3rem;border-radius:3px;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Source Code Pro", monospace;font-size:0.95rem}
